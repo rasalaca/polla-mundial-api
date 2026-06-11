@@ -1,0 +1,31 @@
+{
+  "name": "polla-mundial-api",
+  "version": "0.1.0",
+  "description": "Backend base para una polla/quiniela mundialista de puntos usando API-Football sin exponer la API key.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "football",
+    "api-football",
+    "world-cup",
+    "express",
+    "github"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0"
+  },
+  "devDependencies": {}
+}
